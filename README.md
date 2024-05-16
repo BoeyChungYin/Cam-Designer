@@ -10,12 +10,27 @@ Different types of cam profiles are used to define achieve desired linear motion
 3. Cycloidal
 
 ### Cam Segments
-The Cam can be divided into 2 to 6 segments with a different type of profile for each segment.
-All the segments have to add up to 360 degrees to define the full cam.
+The Cam can be divided into **2 to 6 segments** with a different type of profile for each segment.
+All the segments have to **add up to 360 degrees** to define the full cam.
 
 ### Data Storage
 The cam designs created will be stored into a csv file titled "cam_data.csv" located within the same directory.
 Cam designs can be retrieved from the csv file for display.
 
+<p align="center">
+  <img src="images/data_file_screenshot.png">
+  <br/>
+</p>
+
 ### Display
 The Python Turtle library is used to display the cam profile in the form of a graph and pictorial display.
+
+<p align="center">
+  <img src="images/Cam1.png">
+  <br/>
+</p>
+
+<p align="center">
+  <img src="images/Cam2.png">
+  <br/>
+</p>
